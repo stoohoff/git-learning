@@ -109,6 +109,25 @@ elif vyber == 3:
 else:
   print("Neplatný výběr")
 
+# Přidejte možnost výběru pití
+
+print("""
+1. Voda
+2. Pivo
+3. Džus
+""")
+
+vyber2 = int(input("Zadejte vaši volbu: "))
+
+if vyber2 == 1:
+    print("20,-")
+elif vyber2 == 2:
+    print("60,-")
+elif vyber2 == 3:
+    print("50,-")
+else:
+    print("Neplatný výběr")
+
 ## Napište program, který bude očekávat dvě čísla a znaménko základní operace (+,-,*,/).
 ## Poté provede výpočet a výsledek vypíše.
 a = int(input("a: "))
