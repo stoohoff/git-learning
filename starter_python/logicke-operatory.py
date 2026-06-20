@@ -39,3 +39,18 @@ if kostka1 == 6 and kostka2 == 6 and kostka3 == 6:
 else:
   print(f"Padly hodnoty {kostka1}, {kostka2} a {kostka3}. Třeba příště")
 
+## (PRO TY NEJPOKROČILEJŠÍ)
+## Přepište následující kód tak, aby používal logické operátory namísto IF...ELSE
+
+def printt (x):
+    print(x)
+    return True
+
+# if 5 < 6:
+#     print("Toto se vytiskne")
+# else:
+#     print("Toto se nevytiskne")
+
+(5 < 6 and print("Toto se vytiskne")) or ("Toto se nevytiskne")
+
+##
