@@ -83,3 +83,7 @@ for k in range (2,0,-1):
     for l in range (0,k):
         print("*", end=" ")
     print("\n")
+
+
+# Poznamky:
+# 1: Ve skutečnosti se jedná o cyklus "for each", nikoliv "for". Nemá ale smysl studenty zatěžovat technikáliemi, info se dá kdyžtak doplnit na maturitním semináři apod... hlavní je myšlenka toho cyklu
